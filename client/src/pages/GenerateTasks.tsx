@@ -22,7 +22,7 @@ const GenerateTasks: React.FC = () => {
     setError(null);
 
     try {
-      const response = await fetch("http://localhost:5000/api/v1/generate-tasks", {
+      const response = await fetch("http://localhost:8000/api/v1/generate-tasks", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
