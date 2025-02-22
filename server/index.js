@@ -10,8 +10,7 @@ app.use(
   cors({
     origin:"https://we-dev-three.vercel.app/" ,
     credentials: true,
-    methods: "GET, POST, PUT, DELETE",
-    allowedHeaders: ["Content-Type", "Authorization"]
+     
   } )
 );
 const { connectDb } = require("./connect");
