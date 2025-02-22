@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8000 ;
 app.use(express.json());
 app.use(
   cors({
-    origin:"https://we-dev-mwhe.vercel.app/" ,
+    origin:"https://we-dev-three.vercel.app/" ,
     credentials: true,
     methods: "GET, POST, PUT, DELETE",
     allowedHeaders: ["Content-Type", "Authorization"]
