@@ -11,7 +11,7 @@ const Signup: React.FC = () => {
   const handleSignup = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:8000/api/v1/auth/signup", {
+      const res = await axios.post("https://wedev-ogsp.onrender.com/api/v1/auth/signup", {
         email,
         password,
       });
