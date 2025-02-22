@@ -20,4 +20,4 @@ app.get("/" , (req , res ) => {
   
 app.use("/api/v1/auth", authRoute);
 app.use("/api/v1", generateTasks);
-app.listen(PORT, () => console.log("Server running on port 5000 🚀"));
+app.listen(PORT, () => console.log("Server running on port 8000 🚀"));
