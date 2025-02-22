@@ -22,6 +22,6 @@ app.get("/" , (req , res ) => {
   res.send("Welcome weDevs")
  })
   
-app.use("/api/v1/auth", authRoute);
-app.use("/api/v1", generateTasks);
+app.use("api/v1/auth", authRoute);
+app.use("api/v1", generateTasks);
 app.listen(PORT, () => console.log("Server running on port 8000 🚀"));
